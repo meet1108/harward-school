@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav */
+
+.navbar{
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    background: transparent;
+    
+}
+
+.navbar .nav-item{
+    color:white;
+}
+
+.navbar hr{
+    color:white;
+    border: 10px;
+}
+
+/* nav */
+
+/* img */
+
+.carousel-item{
+    width: 100%;
+
+    
+}
+
+.carousel-caption{
+    padding-bottom: 340px;
+}
+
+.carousel-hd-txt{
+font-family: Fredericka the Great;
+font-size: 40px;
+font-weight: 400;
+line-height: 49px;
+letter-spacing: 0em;
+
+}
+
+.carousel-txt{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+}
+
+
+/* img */
+
+.sub_1{
+    background-color: #1E1E1E;
+}
+
+.main_content .main_txt{
+    color:white;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: left;
+}
+
+.sub_1 .main_Fre{
+    font-family: 'Fredericka the Great';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 123px;
+/* identical to box height */
+color: #F3F4F4;
+
+opacity: 0.4;
+}
+
+.sub_1 .main_aud{
+    font-family: 'Audiowide';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 61px;
+
+color: #E10D45;
+    margin-top:-60px;
+    /* margin-right:50px; */
+
+}
+
+.sub_1 .main_img{
+    position: absolute;
+    z-index:2;
+}
+
+.sub_1 .main_img_sha{
+    position: relative;
+    bottom: -13px;
+    left: 25px;
+    z-index: 1;
+}
+
+
+/* about us */
+
+/* event */
+
+.event{
+    background-color: #E5E5E5;;
+}
+
+.event .event_aut{
+
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: right;
+    color: #E10D45;
+    margin-top:-60px;
+    
+}
+
+.event .event_Fre{
+
+font-family: 'Fredericka the Great';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 123px;
+/* identical to box height */
+text-align: right;
+color: #1E1E1E;
+opacity: 0.4;
+}
+
+.event .date{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #000000;
+
+opacity: 0.8;
+}
+
+.event .txt{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #1E1E1E;
+}
+
+
+.Learn_btn_filled{
+    position: relative;  
+}
+
+.Learn_btn_filled .centered{
+    top: 50%;
+    position: absolute;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color:#F3F4F4;
+
+}
+
+.Learn_btn_empty{
+  position: relative;
+
+}
+
+.Learn_btn_empty .centered{
+    
+position: absolute;
+  top: 50%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+}
+
+.event .horizontal-scrollable{
+    
+}
+
+.event .horizontal-scrollable .scroll_sub{
+    display: inline-block;
+}
+
+
+/* event */
+
+
+/* partner */
+
+.partner{
+    background-color: #E5E5E5;;
+}
+
+.partner .partner_aut{
+    
+    
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: left;
+    color: #E10D45;
+    margin-top: -60px;
+}
+
+.partner .partner_Fre{
+    
+    
+    font-family: 'Fredericka the Great';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 123px;
+    /* identical to box height */
+    color: #1E1E1E;
+    opacity: 0.4;
+}
+
+.partner_content .partner_txt{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #1E1E1E;
+}
+
+.partner .partner_img {
+    position: absolute;
+    z-index:2;
+}
+
+.partner .partner_img_sha{
+    position: relative;
+    bottom: -13px;
+    left: -20px;
+    z-index: 1;
+}
+
+
+
+/* partner */
+
+
+/* form */
+
+.form{
+    background-color: #1E1E1E;
+
+}
+
+.form .form_aut{
+    font-family: 'Audiowide';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 61px;
+
+color: #E10D45;
+margin-top: -50px;
+}
+
+.form .form_Fre{
+    font-family: 'Fredericka the Great';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 123px;
+/* identical to box height */
+
+max-width:63%;
+color: #F3F4F4;
+
+opacity: 0.4;
+}
+
+.form .form_txt{
+max-width:63%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #F3F4F4;
+}
+
+.form .form_dt{
+    max-width: 60%;
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.14em;
+
+color: #FFFFFF;
+}
+
+.form .form_radio{
+
+}
+
+
+
+/* form */
+
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

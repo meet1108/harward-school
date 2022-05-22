@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link href="./css/index.css" rel="stylesheet" >
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Inter:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark border-bottom " style="--bs-bg-opacity: .5;">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 pb-2 pt-2 mb-lg-0">
+          <li class="nav-item px-4 mt-1">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item px-3 mt-1">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item px-3 ">
+           <img class="nav-link" src="./img/Vector.png">
+          </li>
+          <li class="nav-item px-3 mt-1">
+            <a class="nav-link" href="#">Events</a>
+          </li>
+          <li class="nav-item px-3 mt-1">
+            <a class="nav-link" href="#">Partners</a>
+          </li>
+          <li class="nav-item px-3 mt-1">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+    
+  </nav>
+  
+  <!-- navbar end -->
+  <!-- carousel -->
+  <header>
+    <div id="carouselExampleCaptions " class="carousel slide " data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item  active">
+          <img src="./img/Rectangle 1.png" class="d-block w-100" alt="./img/Rectangle 1.png">
+          <div class="carousel-caption mx-1 d-none d-md-block">
+            <h5 class="carousel-hd-txt">HOMEGROWN CALIFONIA CANNABIS</h5>
+            <p class="carousel-txt">The purpose is to enrich and expand the educational opportunities of Harward students while promoting a deeper understanding of the school system within the community.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/Rectangle 1.png" class="d-block w-100" alt="./img/Rectangle 1.png">
+          <div class="carousel-caption mx-1 d-none d-md-block">
+            <h5 class="carousel-hd-txt">Second slide label</h5>
+            <p class="carousel-txt">The purpose is to enrich and expand the educational opportunities of Harward students while promoting a deeper understanding of the school system within the community.</p>
+          </div>
+        </div>
+        <div class="carousel-item  ">
+          <img src="./img/Rectangle 1.png" class="d-block w-100" alt="./img/Rectangle 1.png">
+          <div class="carousel-caption mx-1 d-none d-md-block">
+            <h5 class="carousel-hd-txt">Third slide label</h5>
+            <p class="carousel-txt">The purpose is to enrich and expand the educational opportunities of Harward students while promoting a deeper understanding of the school system within the community.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+<!-- carsoul -->
+<!-- about us -->
+<section class="sub_1 pb-5">
+  <div class="container pt-5">
+    <div class="container d-flex flex-row ">
+      <h1 class="main_Fre">About Us</h1>
+      <hr class="p-2 w-25 ms-4 " style="color:#1E1E1E;margin-top: 80px;"/>
+    </div>
+    <h1 class="main_aud container me-5">About Us</h1>
+      
+  <div class="main_content mt-5 ">
+    <div class="container d-flex flex-row ">
+      <div class="p-2 my-auto ms-5"><img  class=" main_img"src="./img/image 4.png"> <img class="main_img_sha" src="./icons/image 6.svg"></div>
+      <div class="p-2 main_txt mx-5 my-auto me-3"><p>Our Partners in Education Foundation enables local organizations to connect with schools or programs within Harward  Schools. The purpose is to enrich and expand the educational opportunities of Harward students while promoting a deeper understanding of the school system within the community.
+      </p>
+ 
+        <p>By establishing personal relationships between community leaders and educators, our goal is to create a spirit of involvement that has a positive impact on Harward. This involvement helps local schools become places where community members work with students and help prepare them to succeed in an ever-changing world.
+        </p>
+        <div class="Learn_btn_filled ">
+          <img src="./icons/Rectangle 13.svg">
+          <div class="centered ">Learn More</div>        </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- about us -->
+
+<!-- event -->
+<section class="event pt-5 pb-5">
+  <div class="container flex-row d-flex">
+    <div class="p-2 scroll_btn flex-row d-flex my-auto">
+      <img class="p-2" src="./icons/Rectangle 12.svg">
+      <img class="p-2" src="./icons/Rectangle 12.svg">
+    </div>
+  <div class="p-2 container pt-5">
+    <div class="container d-flex flex-row-reverse">
+      <h1 class="p-2 event_Fre">Events</h1>
+      <hr class="p-2 w-25 ms-4 " style="color:#1E1E1E;margin-top: 80px;"/>
+    </div>
+    <h1 class="event_aut container me-5">Events</h1>
+  </div>
+</div>
+<div class="container ">
+  <div class="row horizontal-scrollable">
+    <div class="col border border-dark py-3 mx-2 scroll_sub" style="border-radius:5px;--bs-border-opacity: 0.3;">
+      <img src="./img/Rectangle 707 1.png">
+      <p class="date">19 Sec, 2021</p>
+      <p class="txt">Introduction gathering meeting for partners</p>
+      <div class="Learn_btn_empty ">
+      <img src="./icons/Rectangle 11.svg">
+      <div class="centered">Learn More</div>
+    </div>
+    </div>
+    <div class="col border border-dark py-3 mx-2 scroll_sub" style="border-radius:5px;--bs-border-opacity: 0.3;">
+      <img src="./img/Rectangle 707 2.png">
+      <p class="date">19 Sec, 2021</p>
+      <p class="txt">Introduction gathering meeting for partners</p>
+      <div class="Learn_btn_empty ">
+      <img src="./icons/Rectangle 11.svg">
+      <div class="centered">Learn More</div>
+    </div>
+    </div>
+    <div class="col border border-dark py-3 mx-2 scroll_sub" style="border-radius:5px;--bs-border-opacity: 0.3;">
+      <img src="./img/Rectangle 707 3.png">
+      <p class="date">19 Sec, 2021</p>
+      <p class="txt">Introduction gathering meeting for partners</p>
+      <div class="Learn_btn_empty ">
+      <img src="./icons/Rectangle 11.svg">
+      <div class="centered">Learn More</div>
+    </div>
+    </div>
+    <div class="col border border-dark py-3 mx-2 scroll_sub" style="border-radius:5px;--bs-border-opacity: 0.3;">
+      <img src="./img/Rectangle 707 4.png">
+      <p class="date">19 Sec, 2021</p>
+      <p class="txt">Introduction gathering meeting for partners</p>
+      <div class="Learn_btn_empty ">
+      <img src="./icons/Rectangle 11.svg">
+      <div class="centered">Learn More</div>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- events -->
+
+<!-- partner -->
+<section class="partner pt-5 pb-5">
+  <div class="container flex-row d-flex">
+    <div class="container d-flex flex-row ">
+      <h1 class="p-2 partner_Fre">Partner</h1>
+      <hr class="p-2 w-25 ms-4 " style="color:#1E1E1E;margin-top: 80px;"/>
+    </div>
+  </div>
+    <h1 class="partner_aut container me-5">In Education</h1>
+    <div class="partner_content mt-5 ">
+      <div class="container d-flex flex-row-reverse ">
+        <div class="p-2 my-auto ms-5"><img  class=" partner_img"src="./img/image 5.png"><img class="partner_img_sha" src="./icons/image 5.svg"> </div>
+        <div class="p-2 partner_txt mx-5 my-auto me-3"><p>Our Partners in Education Foundation enables local organizations to connect with schools or programs within Harward  Schools. The purpose is to enrich and expand the educational opportunities of Harward students while promoting a deeper understanding of the school system within the community.
+        </p>
+   
+          <p>By establishing personal relationships between community leaders and educators, our goal is to create a spirit of involvement that has a positive impact on Harward. This involvement helps local schools become places where community members work with students and help prepare them to succeed in an ever-changing world.
+          </p>
+          <div class="Learn_btn_filled ">
+            <img src="./icons/Rectangle 13.svg">
+            <div class="centered ">Learn More</div>
+          </div>
+          </div>
+      </div>
+    </div>
+</section>
+<!-- partner -->
+
+<!-- form -->
+<section class="form pt-5 pb-5 " >
+  <div class="container mx-auto" style="width:fit-content" >
+    <h1 class=" form_Fre mx-auto">Contact</h1>
+      
+    <h1 class="form_aut ">The Harward School</h1>
+    <p class="form_txt mx-auto">Contact the Harward Schools Partners In Education Foundation</p>
+  </div>
+  <div class="form_dt mx-auto ">
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Name</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div  class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Phone</label>
+      <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div  class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="validationTextarea" class="form-label">Textarea</label>
+      <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+    </div>
+    <div class="form_radio flex-row d-flex mt-5">
+    <p class=" me-2">Receive P.I.E. email updates :</p>
+    <div class="form-check mx-2">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label class="form-check-label" for="flexRadioDefault1">
+        Yes
+      </label>
+    </div>
+    <div class="form-check  ms-2">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+      <label class="form-check-label" for="flexRadioDefault2">
+        No
+      </label>
+    </div>
+  </div>
+  <div class="d-grid gap-2 mt-3">
+    <button class="btn btn-primary" type="button">Button</button>
+  </div>
+  </form>
+</div>
+</section>
+
+<!-- form -->
+
+
+</body>
+</html></html>
+
